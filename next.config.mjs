@@ -1,8 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  basePath: "/eidraffin.github.io",
+  basePath: "/nextjs-portfolio",
   output: "export",
   reactStrictMode: true,
 };
 
-module.exports = nextConfig;
+// Use the export default syntax
+export default nextConfig;

@@ -30,6 +30,13 @@ export const projectsData = [
     repoUrl: "https://github.com/eidraffin/pet-adoption-platform",
   },
   {
+    title: "Cliffford Chatbot",
+    description:
+      "Cliffford is a MERN stack chatbot integrated with Clerk for user authentication and Google Generative AI for model-based responses. The app allows users to engage in chats, upload images via ImageKit, and manage chat histories with MongoDB and Express.js on the backend.",
+    tags: ["React", "JavaScript", "Express.js", "MongoDB",],
+    repoUrl: "https://github.com/eidraffin/cliffford-chatbot",
+  },
+  {
     title: "Dunphy Estates",
     description:
       "An interactive real estate listing platform that enables users to find and view properties, featuring advanced search options with customizable filters. It incorporates secure user authentication through OAuth with Firebase, ensuring a seamless login experience. Users can easily browse listings, utilize enhanced search capabilities, and access detailed property profiles.",

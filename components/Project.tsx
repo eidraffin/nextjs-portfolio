@@ -29,9 +29,9 @@ export default function Project({
       }}
       className="group mb-3 sm:mb-8 last:mb-0"
     >
-      <section className="max-w-[42rem] border border-black/5 rounded-lg overflow-hidden sm:pr-8 relative transition text-white bg-zinc-950 hover:bg-slate-950">
-        <div className="pt-4 pb-7 px-5 sm:pl-10 sm:pr-2 sm:pt-10 flex flex-col h-full">
-          <h3 className="text-2xl font-semibold">
+      <section className="max-w-[42rem] border border-black/5 rounded-lg overflow-hidden sm:pr-8 relative transition text-white bg-zinc-950 hover:bg-zinc-800">
+        <div className="pt-8 pb-7 px-8 sm:pl-10 sm:pr-2 sm:pt-10 flex flex-col h-full">
+          <h3 className="mb-2 text-2xl font-semibold">
             <a
               href={repoUrl} 
               target="_blank"
@@ -47,7 +47,7 @@ export default function Project({
           <ul className="flex flex-wrap mt-4 gap-2 sm:mt-auto">
             {tags.map((tag, index) => (
               <li
-                className="mt-6 bg-gray-900 px-3 py-2 text-[0.7rem] uppercase tracking-wider rounded-full text-white/70 opacity-80"
+                className="mt-3 bg-zinc-950 px-3 py-2 text-[0.7rem] font-bold uppercase tracking-wider border-[1px] border-zinc-900 shadow-xl rounded-full text-white/70 opacity-80"
                 key={index}
               >
                 {tag}

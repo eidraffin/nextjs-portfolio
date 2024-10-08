@@ -17,7 +17,7 @@ export default function Intro() {
     <section
       ref={ref}
       id="home"
-      className="mt-32 mb-28 max-w-[50rem] text-center sm:mb-0 scroll-mt-[100rem]"
+      className="mt-16 mb-28 max-w-[50rem] text-center sm:mb-0 scroll-mt-[100rem]"
     >
       <div className="flex items-center justify-center">
         <div className="relative">
@@ -47,7 +47,7 @@ export default function Intro() {
         animate={{ opacity: 1, y: 0 }}
       >
         <span className="font-bold">
-        Hello there! I&#39;m Eidraffin, a third-year Computer Science student at <a className="text-blue-500 opacity-60" href="https://www.bracu.ac.bd/" id="university">Brac University,</a> currently focusing on Backend Development and Machine Learning.
+        Hello there! I&#39;m Eidraffin, a third-year Computer Science student at <a className="text-blue-500 opacity-60" href="https://www.bracu.ac.bd/" id="university">Brac University</a>, currently focusing on Backend Development and Machine Learning.
         </span>
       </motion.h1>
       <motion.div
